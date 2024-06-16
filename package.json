@@ -1,0 +1,21 @@
+{
+  "name": "lofi-theme",
+  "displayName": "lofi-theme",
+  "description": "Lofi theme for vs code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lofi Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lofi Theme-color-theme.json"
+      }
+    ]
+  }
+}
